@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三角洲装备随机系统</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 顶部头像区域 -->
+        <div class="top-avatars">
+            <div class="avatar top-left">
+                <img src="https://via.placeholder.com/40x40/8B4513/FFFFFF?text=🦔" alt="头像1">
+            </div>
+            <div class="avatar top-right">
+                <img src="https://via.placeholder.com/40x40/4169E1/FFFFFF?text=🔊" alt="音量">
+                <img src="https://via.placeholder.com/40x40/4169E1/FFFFFF?text=🔊" alt="音量">
+            </div>
+        </div>
+
+        <!-- 主面板 -->
+        <div class="main-panel">
+            <!-- 标题区域 -->
+            <div class="title-section">
+                <div class="target-icon">🎯</div>
+                <h1 class="main-title">三角洲装备随机系统</h1>
+                <div class="target-icon">🎯</div>
+            </div>
+
+            <!-- 装备分类区域 -->
+            <div class="equipment-grid">
+                <div class="equipment-box" data-category="map">
+                    <div class="box-header">
+                        <div class="category-icon">🗺️</div>
+                        <h3 class="category-title">地图</h3>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://via.placeholder.com/120x80/2F4F4F/FFFFFF?text=地图预览" alt="地图" class="equipment-image">
+                    </div>
+                    <div class="equipment-info">
+                        <p class="equipment-name">零号大级机</p>
+                        <p class="equipment-details">07 18 00:00-07 21 23:59</p>
+                    </div>
+                </div>
+
+                <div class="equipment-box" data-category="character">
+                    <div class="box-header">
+                        <div class="category-icon">👤</div>
+                        <h3 class="category-title">人物</h3>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://via.placeholder.com/120x80/4B0082/FFFFFF?text=人物预览" alt="人物" class="equipment-image">
+                    </div>
+                    <div class="equipment-info">
+                        <p class="equipment-name">战术角色</p>
+                        <p class="equipment-details">精英战士</p>
+                    </div>
+                </div>
+
+                <div class="equipment-box" data-category="weapon">
+                    <div class="box-header">
+                        <div class="category-icon">🔫</div>
+                        <h3 class="category-title">枪械</h3>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://via.placeholder.com/120x80/228B22/FFFFFF?text=枪械预览" alt="枪械" class="equipment-image">
+                    </div>
+                    <div class="equipment-info">
+                        <p class="equipment-name">复合弓</p>
+                        <p class="equipment-details">远程武器</p>
+                    </div>
+                </div>
+
+                <div class="equipment-box" data-category="helmet">
+                    <div class="box-header">
+                        <div class="category-icon">🪖</div>
+                        <h3 class="category-title">头盔</h3>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://via.placeholder.com/120x80/228B22/FFFFFF?text=头盔预览" alt="头盔" class="equipment-image">
+                    </div>
+                    <div class="equipment-info">
+                        <p class="equipment-name">H70 精英头盔</p>
+                        <p class="equipment-details">1,695,734</p>
+                    </div>
+                </div>
+
+                <div class="equipment-box" data-category="armor">
+                    <div class="box-header">
+                        <div class="category-icon">🛡️</div>
+                        <h3 class="category-title">护甲</h3>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://via.placeholder.com/120x80/228B22/FFFFFF?text=护甲预览" alt="护甲" class="equipment-image">
+                    </div>
+                    <div class="equipment-info">
+                        <p class="equipment-name">HA-2重型防弹衣</p>
+                        <p class="equipment-details">2,298,346</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 随机装备按钮 -->
+            <div class="random-section">
+                <div class="target-icon">🎯</div>
+                <button id="randomButton" class="random-button">随机装备</button>
+                <div class="target-icon">🎯</div>
+            </div>
+
+            <!-- 说明文字 -->
+            <div class="instruction-text">
+                点击按钮开始3秒闪动!最后停的奖励即为获得奖励!
+            </div>
+
+            <!-- 获得装备区域 -->
+            <div class="obtained-section">
+                <div class="obtained-header">
+                    <div class="obtained-icon">📦</div>
+                    <h3 class="obtained-title">获得装备</h3>
+                </div>
+                <div class="obtained-content">
+                    <p class="no-equipment">暂无获得装备</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部图标区域 -->
+        <div class="bottom-icons">
+            <div class="icon-item">S</div>
+            <div class="icon-item">🎤</div>
+            <div class="icon-item">🔊</div>
+            <div class="icon-item">⚙️</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
